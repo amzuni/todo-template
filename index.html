@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="myDIV" class="header">
+            <h2>Todo List</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" id="myInput" placeholder="Title...">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-12">
+                        <input type="text" id="desc" placeholder="Description...">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6">
+                        <label for="timebegin" class="col-form-label text-center"><h4>Time Begin</h4></label>
+                        <input type="date" class="form-control" id="timebegin" placeholder="Nhập Time Begin">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="timeend" class="col-form-label text-center"><h4>Time End</h4></label>
+                        <input type="date" class="form-control" id="timebegin" placeholder="Nhập Time End">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary">Add Task</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+          
+        <ul id="myUL">
+            <li>Lam do an</li>
+            <li class="checked">Lam bai tap lap trinh Java</li>
+            <li class="doing">Di du lich</li>
+            <li>Buy eggs</li>
+            <li>Read a book</li>
+            <li>Organize office</li>
+        </ul>
+    </div>
+</body>
+</html>
